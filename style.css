@@ -1,0 +1,32 @@
+.custom-section3{
+    height: 80vh;
+}
+.custom-row-section3{
+    height: 80vh;
+}
+.custom-img-section3{
+    background-image: url("./images/desktop/image-stand-out.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-6{
+    margin: 0px;
+    padding: 0px;
+}
+.section3-content{
+    height: 80vh;
+}
+.custom-content-section3{
+    height: 80vh;
+    width: 70vh;
+    margin: 200px auto;
+}
+.custom-h1-section3{
+    font-size: 52px;
+    font-weight: 800;
+}
+.custom-link{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
