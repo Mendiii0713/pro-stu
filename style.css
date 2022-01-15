@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 header {
   height: 100vh;
@@ -45,6 +46,19 @@ nav li a {
   font-size: 1.5em;
   color: white;
 }
+
+/* section-one */
+.section-one-content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-one-content p{
+    width: 400px;
+  }
+
 /*Section three*/
 .custom-section3{
     height: 80vh;
@@ -78,4 +92,3 @@ nav li a {
     font-size: 18px;
     font-weight: 700;
 }
-
