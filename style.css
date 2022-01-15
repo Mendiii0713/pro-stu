@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/* section-one */
+.section-one-content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-one-content p{
+    width: 400px;
+}
