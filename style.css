@@ -1,3 +1,51 @@
+/*Header Section*/
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100vh;
+  background: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: white;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 80px;
+}
+.menu h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  align-items: center;
+}
+nav li {
+  list-style-type: none;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+/*Section three*/
 .custom-section3{
     height: 80vh;
 }
@@ -30,3 +78,4 @@
     font-size: 18px;
     font-weight: 700;
 }
+
